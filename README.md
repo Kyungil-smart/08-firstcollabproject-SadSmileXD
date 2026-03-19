@@ -1,1 +1,68 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23176613&assignment_repo_type=AssignmentRepo)
+# Team-Rule
+
+### 깃허브 Commit  Message (필수)
+
+- feat: 기능 추가
+
+- fix: 버그 수정
+
+- refactor: 구조 개선 (기능 변화 없음)
+
+- style: 코드 스타일 (세미콜론, 정렬 등)
+
+- docs: 문서 수정
+
+- test: 테스트 코드
+
+- chore: 기타 잡일 (빌드, 설정 등)
+
+
+---
+### 브런치 생성 규칙 (필수)
+main        → 배포용 (절대 직접 작업 X)  
+develop     → 개발 통합 브랜치  
+feature/*   → 기능 개발  
+fix/*       → 버그 수정      
+
+
+- 머지 이후 사용중인 브런치 삭제 후 다시 만들기
+
+
+---
+### 네이밍 규칙 (필수)  
+
+--- 
+
+### 머지,Pull Request규칙 (필수)
+
+ex)  
+[기능] 캐릭터 선택 시스템 추가
+
+- Photon 동기화 구현
+- 100초 타이머 추가  
+
+---
+### 기능 구현 시  문서 작성 (선택)
+
+기능 구현 할 때   
+자신이 무엇을 어떻게 구현할지 간략하게 작성하고 개발하기
+
+ex) 스킬 제작
+
+- 키 입력 시 스킬 생성  
+  - 키 입력 후  로직 작동확인
+  - 키 입력 후 스킬 오브젝트 또는 행동 확인
+
+- 스킬 사용 시 마나 소모
+  - 마나 100소비
+
+- 스킬 LV 15 이상 시 특정 스킬 해금
+  -  레벨 달성 후 해금 확인  
+
+  <-- 위에 내용들을 하면 막혔을 때 도움받기 편함 
+---
+### 30분 이상 고민하지 말기(선택)
+ 개발 공부 했을 때    선배님 그리고 5년차 개발자님께서 말씀하시길  
+
+30분 이상 막히면 본인 힘으로는 구현하기 힘들다고  
+주변 팀원 또는 다른 분께 도움 요청하는게 서로 좋다 하셨음
